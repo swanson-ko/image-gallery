@@ -23,7 +23,7 @@ const App = () => {
       .catch((err) => {
         console.log(err);
       } )
-      
+    setWord('');
   }
 
     // invoke event log and display search term as being entered by the user...
