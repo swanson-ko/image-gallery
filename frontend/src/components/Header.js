@@ -5,11 +5,11 @@ import { ReactComponent as Logo } from '../images/logo.svg';
 const navbarStyle = {
   backgroundColor: 'lightblue',
 };
-const Header = (props) => {
+const Header = (title) => {
   return (
     <Navbar style={navbarStyle} variant="light">
       <Container>
-        <Logo style={{ maxWidth: '9rem', maxHeight: '3rem' }} />
+        <Logo alt={title} style={{ maxWidth: '9rem', maxHeight: '3rem' }} />
       </Container>
     </Navbar>
   );
